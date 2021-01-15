@@ -44,6 +44,15 @@
     text-align: center;
 }
 
+.homepage-paragraph{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color:white;
+    text-align: center;
+}
+
+
 @media(min-width: 500px){
     .homepage-heading{
         font-size: 6.0rem;
@@ -51,6 +60,9 @@
     
     .homepage-heading-2{
         font-size: 2.5rem
+    }
+    .homepage-paragraph{
+        font-size: 1.5rem;
     }
 }
 
@@ -61,5 +73,8 @@
     
     .homepage-heading-2{
         font-size: 3.0rem
+    }
+    .homepage-paragraph{
+        font-size: 1.7rem;
     }
 }
