@@ -75,7 +75,7 @@ img{
 
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     width: 45%;
     font-weight: bold;
 }
@@ -87,15 +87,22 @@ img{
     color: #F7B76F;
 }
 
+.homepage-more-info-text{
+    color: white;
+    font-weight: bold;
+}
+
 .homepage-content-text{
     color: white;
     
 }
 
 .flex-homepage-content{
-    padding: 32vh 0;
+    padding-top: 25vh;
+    padding-bottom: 30vh;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     border: 2px black solid;
 }
 
@@ -145,6 +152,39 @@ img{
         max-width: 40%;
         height: auto;
         object-fit: contain;
+    }
+
+    /* HOME CONTENT SECTION */
+    .homepage-heading-2{
+        font-size: 6.5rem;
+        width: 45%;
+        font-weight: bold;
+    }
+    #heading-yellow{
+        color: #F7EE3E;
+    }
+    
+    #heading-orange{
+        color: #F7B76F;
+    }
+    
+    .homepage-content-text{
+        color: white;
+        
+    }
+    
+    .flex-homepage-content{
+        padding: 32vh 0;
+        display: flex;
+        justify-content: space-between;
+        border: 2px black solid;
+    }
+    
+    
+    
+    .homepage-titles-flex{
+        display: flex;
+        flex-direction: column;
     }
     
 }
