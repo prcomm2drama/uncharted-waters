@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
+    font-size: 1.05rem;
 }
+
+
 
 .flex-homepage{
     background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../img/uncharted_waters.jpg");
@@ -17,15 +20,15 @@
     align-items: center;
 }
 
+
+
 .overlay{
-    opacity:1;
-    background-color:#cccccc;
-    position:fixed;
+    
     width:100%;
     height:100%;
     top:0px;
     left:0px;
-    z-index:1000;
+    
 }
 
 .homepage-heading{
@@ -36,7 +39,7 @@
     text-align: center; 
 }
 
-.homepage-heading-2{
+.homepage-paragraph-2{
     font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     font-size: 1.4rem;
@@ -52,29 +55,104 @@
     text-align: center;
 }
 
+img{
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    margin: 20px 20px;
+}
+
+.flex-logo-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.homepage-content-background{
+    height: 200vh;
+    background: linear-gradient(#5675F8, #4BC8FC);
+}
+
+/* HOME CONTENT SECTION */
+.homepage-heading-2{
+    font-size: 6.5rem;
+    width: 45%;
+    font-weight: bold;
+}
+#heading-yellow{
+    color: #F7EE3E;
+}
+
+#heading-orange{
+    color: #F7B76F;
+}
+
+.homepage-content-text{
+    color: white;
+    
+}
+
+.flex-homepage-content{
+    padding: 32vh 0;
+    display: flex;
+    justify-content: space-between;
+    border: 2px black solid;
+}
+
+
+
+.homepage-titles-flex{
+    display: flex;
+    flex-direction: column;
+}
+
 
 @media(min-width: 500px){
     .homepage-heading{
         font-size: 6.0rem;
     }
     
-    .homepage-heading-2{
+    .homepage-paragraph-2{
         font-size: 2.5rem
     }
     .homepage-paragraph{
         font-size: 1.5rem;
     }
+
+    img{
+        max-width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
 }
 
 @media(min-width: 769px){
+    *{
+        font-size: 1.1rem;
+    }
     .homepage-heading{
         font-size: 7.0rem;
     }
     
-    .homepage-heading-2{
+    .homepage-paragraph-2{
         font-size: 3.0rem
     }
     .homepage-paragraph{
         font-size: 1.7rem;
+    }
+
+    img{
+        max-width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+}
+
+@media( min-width: 1025px){
+    img{
+        max-width: 30%;
+        height: auto;
+        object-fit: contain;
     }
 }
