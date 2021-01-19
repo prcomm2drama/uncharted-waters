@@ -76,7 +76,6 @@ img{
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
     font-size: 4.5rem;
-    width: 45%;
     font-weight: bold;
 }
 #heading-yellow{
@@ -90,6 +89,7 @@ img{
 .homepage-more-info-text{
     color: white;
     font-weight: bold;
+    text-align: center;;
 }
 
 .homepage-content-text{
@@ -98,12 +98,14 @@ img{
 }
 
 .flex-homepage-content{
-    padding-top: 25vh;
-    padding-bottom: 30vh;
     display: flex;
-    justify-content: space-between;
+    height: 100vh;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 2px black solid;
+
+    padding: 25px 0px;
 }
 
 
@@ -174,9 +176,7 @@ img{
     }
     
     .flex-homepage-content{
-        padding: 32vh 0;
         display: flex;
-        justify-content: space-between;
         border: 2px black solid;
     }
     
