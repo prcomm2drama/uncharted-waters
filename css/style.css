@@ -5,6 +5,7 @@
 
 
 
+
 .flex-homepage{
     background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../img/uncharted_waters.jpg");
     background-position: center;
@@ -75,7 +76,7 @@ img{
 
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 #heading-yellow{
@@ -101,7 +102,7 @@ img{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: 2px black solid;
 
@@ -110,12 +111,56 @@ img{
 
 
 
-.homepage-titles-flex{
+
+/* FOOTER */ 
+.background-black{
+    background-color: black;
+}
+
+.footer-text{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.footer-flex{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 
+
+footer a{
+    text-decoration: none;
+    max-width: 50%
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+.footer-content-margin{
+    margin-top: 20px;
+}
+
+#footer-div{
+    padding: 25px 0;
+}
+
+.footer-list-margin{
+    margin: 0 20px;
+}
 @media(min-width: 500px){
     .homepage-heading{
         font-size: 6.0rem;
@@ -159,7 +204,7 @@ img{
     /* HOME CONTENT SECTION */
     .homepage-heading-2{
         font-size: 6.5rem;
-        width: 45%;
+        max-width: 100%;
         font-weight: bold;
     }
     #heading-yellow{
@@ -170,21 +215,66 @@ img{
         color: #F7B76F;
     }
     
-    .homepage-content-text{
-        color: white;
-        
+    .homepage-titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+        justify-content: left;
     }
+
+
     
     .flex-homepage-content{
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         border: 2px black solid;
     }
+
+    .homepage-description{
+        max-width: 50%;
+        padding: 0px 45px;
+    }
     
-    
-    
-    .homepage-titles-flex{
+
+    .homepage-more-info-text{
+        max-width: 70%;
+        flex: 3;
+    }
+
+    #flex-homepage-content-devised{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    /*FOOTER*/
+    .footer-flex{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footer-flex-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-flex-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .footer-content-margin{
+        margin: 20px 40px;
+    }
+
+    #footer-div{
+        padding: 10px;
     }
     
 }
