@@ -74,18 +74,33 @@ img{
     background: linear-gradient(#5675F8, #4BC8FC);
 }
 
+/* SYMPOSIUM SECTION */
+.background-blue{
+    background-color: #4389E0;
+}
+
+.heading2-yellow{
+    color: #F7C93E;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+#link-white{
+    color: white;
+}
+
+.max-height-100vh{
+    height: 100vh;
+}
+
+
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
     font-size: 4rem;
     font-weight: bold;
 }
-#heading-yellow{
-    color: #F7EE3E;
-}
 
-#heading-orange{
-    color: #F7B76F;
-}
 
 .homepage-more-info-text{
     color: white;
@@ -102,7 +117,7 @@ img{
     display: flex;
     height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
+    
     align-items: center;
     border: 2px black solid;
 
@@ -161,6 +176,17 @@ footer p{
 .footer-list-margin{
     margin: 0 20px;
 }
+
+
+/* UTILITY CLASSES */
+#heading-yellow{
+    color: #F7EE3E;
+}
+
+#heading-orange{
+    color: #F7B76F;
+}
+
 @media(min-width: 500px){
     .homepage-heading{
         font-size: 6.0rem;
@@ -177,6 +203,19 @@ footer p{
         max-width: 50%;
         height: auto;
         object-fit: contain;
+    }
+
+
+    /* SYMPOSIUM SECTION */
+
+
+    .heading2-yellow{  
+        font-size: 4rem;
+        
+    }
+
+    .max-height-100vh{
+        height: 50vh;
     }
 }
 
@@ -285,4 +324,9 @@ footer p{
         height: auto;
         object-fit: contain;
     }
+
+    /* SYMPOSIUM SECTION */
+
+
+ 
 }
