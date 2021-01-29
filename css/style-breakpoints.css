@@ -108,6 +108,14 @@
     justify-content: flex-start;
     }
 
+    table{
+        min-width: 55%;
+    }
+    
+    td, tr{
+        font-size: 1.05rem;
+    }
+
     /*FOOTER*/
     .footer-flex{
         display: flex;

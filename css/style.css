@@ -33,9 +33,6 @@
     align-items: center;
 }
 
-#flex-heading-twelfth{
-    height: 50vh;
-}
 .text-heading{
     font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
@@ -86,6 +83,13 @@ img{
 }
 
 /* PAGES */
+
+#flex-heading-twelfth{
+    background-image: linear-gradient(rgba(86, 117, 248, .9), rgba(86, 117, 248, .9)), url("../img/uncharted_waters.jpg");
+    height: 50vh;
+    background-position: center;
+}
+
 .flex-pages{
     display: flex;
     flex-direction: column;
@@ -93,12 +97,13 @@ img{
 }
 
 table{
-    width: 60%;
+    min-width: 45%;
 }
 
 td, tr{
     text-align: center;
     vertical-align: middle;
+    font-size: .8rem;
 }
 table, th, td {
     border: 1px solid black;

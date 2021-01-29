@@ -1,109 +1,158 @@
 {
   "result":[
     {
-      "name": "",
-      "role": "",
+      "name": "Amiya Brown",
+      "role": "Scenic/Environment Designer",
+      "school": "Seattle University",
+      "pronouns": "She/Her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Larcyn Burnett",
+      "role": "Assistant Stage Manager",
+      "school": "Cornish College of the Arts",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Quinn Chase",
+      "role": "Stage Manager",
+      "school": "Cornish College of the Arts",
+      "pronouns": "he/him",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Sophie Collins",
+      "role": "Production Design",
+      "school": "Seattle University",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Alice Gosti",
+      "role": "Movement Consultant/Choreographer",
+      "school": "",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Ivan Guillermo",
+      "role": "OBS Master",
       "school": "",
       "pronouns": "",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
+      "name": "Justin Huertas",
+      "role": "Composer",
       "school": "",
-      "pronouns": "",
+      "pronouns": "he/him",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Derek Jones",
+      "role": "Sound Designer",
+      "school": "Seattle University",
+      "pronouns": "he/him",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Rosa Joshi",
+      "role": "Director",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Alyssa Kay",
+      "role": "Resident Fight and Inimacy Director",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Nicola Krause",
+      "role": "Assistant Stage Manager",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Kimberly Le",
+      "role": "Assistant Director",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
+      "name": "Hannah Madgett",
+      "role": "Assistant Costume Designer",
+      "school": "Seattle University",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+      
+    }, {
+      "name": "Reed Nakayama",
+      "role": "Environmental Design",
       "school": "",
-      "pronouns": "",
+      "pronouns": "he/him",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Lily Noto",
+      "role": "Head of Props Department",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Levi Redmill",
+      "role": "Assistant Director",
+      "school": "Cornish College of the Arts",
+      "pronouns": "he/him",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Rebecca Silva",
+      "role": "Costume Designer",
+      "school": "Seattle University",
+      "pronouns": "she/her, they/them",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
+      "name": "Steven Tran",
+      "role": "Music Director",
       "school": "",
-      "pronouns": "",
+      "pronouns": "he/him",
       "location": "",
       "bio": ""
 
     }, {
-      "name": "",
-      "role": "",
-      "school": "",
-      "pronouns": "",
+      "name": "Kate Wisniewski",
+      "role": "Text/Speech Director",
+      "school": "Seattle University",
+      "pronouns": "she/her",
       "location": "",
       "bio": ""
 
     }
+
   ]
 }
