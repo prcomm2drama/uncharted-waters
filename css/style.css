@@ -41,10 +41,6 @@
     text-align: center; 
 }
 
-.text-yellow{
-    color: #F7EE3E !important;
-
-}
 
 
 
@@ -88,6 +84,13 @@ img{
     background-image: linear-gradient(rgba(86, 117, 248, .9), rgba(86, 117, 248, .9)), url("../img/uncharted_waters.jpg");
     height: 50vh;
     background-position: center;
+}
+
+#flex-heading-devised{
+    background-image: linear-gradient(rgba(75, 200, 252, .9), rgba(75, 200, 252, .9)), url("../img/uncharted_waters.jpg");
+    height: 50vh;
+    background-position: center;
+    
 }
 
 .flex-pages{
@@ -223,4 +226,17 @@ footer p{
 
 .mt--2{
     margin-top: -10px;
+}
+
+.text-yellow{
+    color: #F7EE3E !important;
+    text-shadow: 1px 1px  rgba(0,0,0,.12);
+    text-shadow: 2px 2px  rgba(0,0,0,.12);
+
+}
+
+.text-orange{
+    color: #F7B76F !important;
+    text-shadow: 1px 1px  rgba(0,0,0,.12);
+    text-shadow: 2px 2px  rgba(0,0,0,.12);
 }
