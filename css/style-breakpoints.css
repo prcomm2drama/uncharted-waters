@@ -1,0 +1,152 @@
+
+/* BREAKPOINTS */
+
+@media(min-width: 500px){
+    .text-heading{
+        font-size: 6.0rem;
+    }
+    
+    .homepage-paragraph-2{
+        font-size: 2.5rem
+    }
+    .homepage-paragraph{
+        font-size: 1.5rem;
+    }
+
+    img{
+        max-width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+    /* SYMPOSIUM SECTION */
+
+
+    .heading2-yellow{  
+        font-size: 4rem;
+        
+    }
+
+    .max-height-100vh{
+        height: 50vh;
+    }
+}
+
+@media(min-width: 769px){
+    *{
+        font-size: 1.1rem;
+    }
+    .text-heading{
+        font-size: 7.0rem;
+    }
+    
+    .homepage-paragraph-2{
+        font-size: 3.0rem
+    }
+    .homepage-paragraph{
+        font-size: 1.7rem;
+    }
+
+    img{
+        max-width: 40%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* HOME CONTENT SECTION */
+    .homepage-heading-2{
+        font-size: 6.5rem;
+        max-width: 100%;
+        font-weight: bold;
+    }
+    #heading-yellow{
+        color: #F7EE3E;
+    }
+    
+    #heading-orange{
+        color: #F7B76F;
+    }
+    
+    .homepage-titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+        justify-content: left;
+    }
+
+
+    
+    .flex-homepage-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px black solid;
+    }
+
+    .homepage-description{
+        max-width: 50%;
+        padding: 0px 45px;
+    }
+    
+
+    .homepage-more-info-text{
+        max-width: 70%;
+        flex: 3;
+    }
+
+    #flex-homepage-content-devised{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    /* PAGES */
+    .flex-pages{
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+
+    /*FOOTER*/
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footer-flex-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-flex-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .footer-content-margin{
+        margin: 20px 40px;
+    }
+
+    #footer-div{
+        padding: 10px;
+    }
+    
+}
+
+@media( min-width: 1025px){
+    img{
+        max-width: 30%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    /* SYMPOSIUM SECTION */
+
+
+ 
+}
