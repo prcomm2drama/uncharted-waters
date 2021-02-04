@@ -74,8 +74,17 @@ img{
 }
 
 /* SYMPOSIUM SECTION */
+.flex-symposium{
+    display: flex;
+    flex-direction: column;
+
+}
 .background-blue{
     background-color: #4389E0;
+}
+
+#symposium-img{
+    float: center;
 }
 
 .heading2-yellow{
@@ -85,12 +94,18 @@ img{
     
 }
 
+.heading3-yellow{
+    color: #F7C93E;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 #link-white{
     color: white;
 }
 
 .max-height-100vh{
-    height: 100vh;
+    height: 75vh;
 }
 
 
@@ -134,6 +149,50 @@ img{
 .homepage-titles-flex{
     display: flex;
     flex-direction: column;
+}
+
+/* FOOTER */ 
+.background-black{
+    background-color: #233847;
+}
+
+.footer-text{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+footer a{
+    text-decoration: none;
+    max-width: 50%
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+.footer-content-margin{
+    margin-top: 20px;
+}
+
+#footer-div{
+    padding: 25px 0;
+}
+
+.footer-list-margin{
+    margin: 0 20px;
 }
 
 
@@ -220,6 +279,39 @@ img{
         display: flex;
         flex-direction: column;
     }
+
+    /*SYMPOSIUM*/
+
+
+    
+    /*FOOTER*/
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  
+    .footer-flex-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .footer-flex-parent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .footer-content-margin{
+        margin: 20px 40px;
+    }
+  
+    #footer-div{
+        padding: 10px;
+    }
+    
     
 }
 
@@ -232,6 +324,26 @@ img{
 
     /* SYMPOSIUM SECTION */
 
+    #symposium-img{
+        max-width: 60%;
+        height: auto;
+        object-fit: contain;
+    }
 
- 
+    .flex-symposium{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .symposium-child-a{
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .symposium-child-b{
+        flex: 1;
+        max-width: 50%;
+        justify-content: center;
+    }
 }
