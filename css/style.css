@@ -74,8 +74,17 @@ img{
 }
 
 /* SYMPOSIUM SECTION */
+.flex-symposium{
+    display: flex;
+    flex-direction: column;
+
+}
 .background-blue{
     background-color: #4389E0;
+}
+
+#symposium-img{
+    float: center;
 }
 
 .heading2-yellow{
@@ -83,6 +92,12 @@ img{
     font-size: 2.5rem;
     font-weight: bold;
     
+}
+
+.heading3-yellow{
+    color: #F7C93E;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #link-white{
@@ -220,6 +235,9 @@ img{
         display: flex;
         flex-direction: column;
     }
+
+    /*SYMPOSIUM*/
+    
     
 }
 
@@ -232,6 +250,26 @@ img{
 
     /* SYMPOSIUM SECTION */
 
+    #symposium-img{
+        max-width: 60%;
+        height: auto;
+        object-fit: contain;
+    }
 
- 
+    .flex-symposium{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .symposium-child-a{
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .symposium-child-b{
+        flex: 1;
+        max-width: 50%;
+        justify-content: center;
+    }
 }
