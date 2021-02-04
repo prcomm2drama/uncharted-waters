@@ -2,6 +2,7 @@
 
 
 let rowGenerator = 0;
+let IDGenerator = 0;
 
 
 function createTwelfthCastRow(state){
@@ -40,7 +41,31 @@ function createDevisedProductionRow(state){
   rowGenerator++;
 }
 
+function createCard(state, init){
 
+ console.log(init);
+ $("#cast-program").append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
+
+ console.log(init);
+
+ $("#namecard" + IDGenerator).append("<div class='circle'></div>");
+
+ $("#namecard" + IDGenerator).append("<h3 class='text-center'>" + state.name + "</h3>");
+
+ $("#namecard" + IDGenerator).append("<p class='text-center m-0'>" + state.role + "</p>");
+
+ $("#namecard" + IDGenerator).append("<p class='text-center m-0'>" + state.school + "</p>");
+
+ IDGenerator++;
+
+}
+
+function renderCards(arrayObjects){
+  for(let i = 0; i < arrayObjects.length; i++){
+    console.log(i);
+    createCard(arrayObjects[i], "#cast-program");
+  }
+}
 
 
 function renderRows(arrayObjects, name){
@@ -74,8 +99,11 @@ function fetchEvents(jsonPath){
   })
   .then(data => {
     castsArray = data.result;
-    console.log(data.result);
-    renderRows(data.result, jsonPath);
+    //console.log(data.result);
+    //renderRows(data.result, jsonPath);
+    renderCards(data.result);
+
+    
 
   }).catch(function(err){
     renderError(err);
@@ -84,11 +112,13 @@ function fetchEvents(jsonPath){
   return promise;
 }
 
-fetchEvents('./json/twelfth-night-cast.json');
+/*fetchEvents('./json/twelfth-night-cast.json');
 fetchEvents('./json/twelfth-night-production.json');
 fetchEvents('./json/devised-cast.json');
 fetchEvents('./json/devised-production.json');
+*/
 
+fetchEvents('./json/devised-cast.json');
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");

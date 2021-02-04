@@ -6,20 +6,6 @@
 
 
 
-.page-header{
-    background-position: center;
-    background-size: cover;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-
-}
-
-#page-header-twelfth{
-    background-color: #5675F8;
-    height: 50vh;
-}
 
 #page-header-home{
     background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../img/uncharted_waters.jpg");
@@ -74,20 +60,39 @@ img{
 }
 
 .homepage-content-background{
-    height: 200vh;
-    background: linear-gradient(#5675F8, #4BC8FC);
+    height: 300vh;
+    background: linear-gradient(rgba(80, 67, 224, .9), #4BC8FC);
 }
 
 /* PAGES */
 
-#flex-heading-twelfth{
+
+.page-header{
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+
+}
+
+#page-header-twelfth{
     background-image: linear-gradient(rgba(86, 117, 248, .9), rgba(86, 117, 248, .9)), url("../img/uncharted_waters.jpg");
+}
+
+#page-header-devised{
+    background-image: linear-gradient(rgba(75, 200, 252, .9), rgba(75, 200, 252, .9)), url("../img/uncharted_waters.jpg");
+}
+
+#flex-heading-twelfth{
+    
     height: 50vh;
     background-position: center;
 }
 
 #flex-heading-devised{
-    background-image: linear-gradient(rgba(75, 200, 252, .9), rgba(75, 200, 252, .9)), url("../img/uncharted_waters.jpg");
+   
     height: 50vh;
     background-position: center;
     
@@ -115,15 +120,10 @@ table, th, td {
 
 /* SYMPOSIUM SECTION */
 .background-blue{
-    background-color: #4389E0;
+    background: linear-gradient(rgba(80, 67, 224, .9), rgba(86, 117, 248, 1));
+    background:rgba(80, 67, 224, .9);
 }
 
-.heading2-yellow{
-    color: #F7C93E;
-    font-size: 2.5rem;
-    font-weight: bold;
-    
-}
 
 #link-white{
     color: white;
@@ -133,6 +133,9 @@ table, th, td {
     height: 100vh;
 }
 
+.height-symposium{
+    height: 100vh;
+}
 
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
@@ -156,19 +159,41 @@ table, th, td {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    
     align-items: center;
-    border: 2px black solid;
-
+    justify-content: center;
     padding: 25px 0px;
 }
 
+
+/* NAVBAR */
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: .90rem;
+    font-weight:600;
+
+}
+
+nav a:hover{
+    color: #5675F8;
+}
+.flex-nav{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.flex-child-nav{
+    padding: 4px;
+    margin: 20px 10px;
+}
 
 
 
 /* FOOTER */ 
 .background-black{
-    background-color: black;
+    background-color: #233847;
 }
 
 .footer-text{
@@ -235,8 +260,44 @@ footer p{
 
 }
 
+.text-yellow-2{
+    color: #F7C93E;
+}
+
 .text-orange{
     color: #F7B76F !important;
     text-shadow: 1px 1px  rgba(0,0,0,.12);
     text-shadow: 2px 2px  rgba(0,0,0,.12);
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.m-0{
+    margin: 0px;
+}
+.namecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.12);
+    box-shadow: 2px 2px 1px rgba(0,0,0,.12);
+    margin: 10px 10px;
+
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color:rgba(75, 200, 252, .9);
+    border-radius: 50%;
+
+}
+
+.flex-program{
+    display: flex;
+    flex-wrap: wrap;
 }

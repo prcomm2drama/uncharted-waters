@@ -28,9 +28,18 @@
         
     }
 
-    .max-height-100vh{
+    .max-height-symposium{
         height: 50vh;
     }
+
+    /* NAVBAR */
+    nav a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
 }
 
 @media(min-width: 769px){
@@ -76,13 +85,16 @@
         justify-content: left;
     }
 
+    .homepage-content-background{
+        height: 225vh;
+    }
 
     
     .flex-homepage-content{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        border: 2px black solid;
+        height: 75vh
     }
 
     .homepage-description{
@@ -102,6 +114,11 @@
         justify-content: space-around;
     }
 
+    /* SYMPOSIUM */
+    .height-symposium{
+        height: 75vh;
+    }
+
     /* PAGES */
     .flex-pages{
     flex-direction: row;
@@ -115,6 +132,22 @@
     td, tr{
         font-size: 1.05rem;
     }
+
+    /* NAVBAR */
+    nav a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 1.40rem;
+
+    }
+
+
+    .flex-child-nav{
+        padding: 4px;
+        margin: 10px 40px 0 40px;
+    }
+
 
     /*FOOTER*/
     .footer-flex{
