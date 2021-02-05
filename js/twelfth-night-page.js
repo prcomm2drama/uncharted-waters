@@ -100,8 +100,8 @@ function fetchEvents(jsonPath){
   .then(data => {
     castsArray = data.result;
     //console.log(data.result);
-    //renderRows(data.result, jsonPath);
-    renderCards(data.result);
+    renderRows(data.result, jsonPath);
+    //renderCards(data.result);
 
     
 
@@ -112,13 +112,13 @@ function fetchEvents(jsonPath){
   return promise;
 }
 
-/*fetchEvents('./json/twelfth-night-cast.json');
+fetchEvents('./json/twelfth-night-cast.json');
 fetchEvents('./json/twelfth-night-production.json');
 fetchEvents('./json/devised-cast.json');
 fetchEvents('./json/devised-production.json');
-*/
 
-fetchEvents('./json/devised-cast.json');
+
+/*fetchEvents('./json/devised-cast.json'); */
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");
