@@ -137,6 +137,13 @@ table, th, td {
     height: 100vh;
 }
 
+.flex-symposium{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 /* HOME CONTENT SECTION */
 .homepage-heading-2{
     font-size: 4rem;
