@@ -86,7 +86,7 @@
     }
 
     .homepage-content-background{
-        height: 225vh;
+        height: 150vh;
     }
 
     
@@ -137,7 +137,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 50%
+        width: 50%;
+        padding: 25px 0px;
     }
 
 

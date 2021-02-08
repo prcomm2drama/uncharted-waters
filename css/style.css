@@ -124,7 +124,6 @@ table, th, td {
     background:rgba(80, 67, 224, .9);
 }
 
-
 #link-white{
     color: white;
 }
@@ -164,7 +163,6 @@ table, th, td {
 
 .flex-homepage-content{
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -250,6 +248,20 @@ footer p{
 
 #heading-orange{
     color: #F7B76F;
+}
+
+.button{
+    text-decoration: none;
+    background:rgba(75, 200, 252, .9);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+
 }
 
 .bold{
