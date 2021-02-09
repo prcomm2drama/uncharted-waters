@@ -109,7 +109,7 @@
     
 
     .homepage-more-info-text{
-        max-width: 70%;
+        max-width: 100%;
         flex: 3;
     }
 
@@ -235,6 +235,9 @@
         font-size: 16px;
         font-weight: bold;
     
+    }
+    .button-purple{
+        background:rgba(86, 117, 248, .9);
     }
 }
 
