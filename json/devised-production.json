@@ -9,76 +9,12 @@
       "bio": ""
 
     }, {
-      "name": "Sheila Daniels",
-      "role": "Director",
-      "school": "Cornish College of the Arts",
-      "pronouns": "she/her",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Robert Aguilar",
-      "role": "Scenic/Environment Designer",
-      "school": "",
-      "pronouns": "",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Stephon Dorsey",
-      "role": "Sound Designer",
-      "school": "",
-      "pronouns": "he/him",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Isabella Harris",
-      "role": "Costume Designer",
-      "school": "UW School of Drama",
-      "pronouns": "she/her",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Mallory Carbon",
-      "role": "Assistant Choreographer",
-      "school": "UW School of Drama",
-      "pronouns": "she/her",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Leah Sainz-Jones",
-      "role": "Assistant Choreographer",
-      "school": "Cornish College of the Arts",
-      "pronouns": "she/her, they/them",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Sam Vasquez",
-      "role": "Assistant Dramaturg",
-      "school": "",
-      "pronouns": "she/her",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Andrea Bryn Bush",
-      "role": "Property Master",
-      "school": "UW School of Drama",
-      "pronouns": "she/her",
-      "location": "",
-      "bio": ""
-
-    }, {
-      "name": "Jay McAleer",
-      "role": "Master Electrician, Stream Facilitator",
-      "school": "UW School of Drama ",
-      "pronouns": "he/him",
-      "location": "",
-      "bio": ""
+    "name": "Sheila Daniels",
+    "role": "Director",
+    "school": "Cornish College of the Arts",
+    "pronouns": "she/her",
+    "location": "",
+    "bio": ""
 
     }, {
       "name": "Stefania Giron Zuluaga",
@@ -99,11 +35,52 @@
     }, {
       "name": "Em Chan Dickson",
       "role": "Assistant Stage Manager",
-      "school": "UW School of Drama",
+      "school": "University of Washington",
       "pronouns": "they/she",
       "location": "",
       "bio": ""
 
+    }, {
+      "name": "Stephon Dorsey",
+      "role": "Sound Designer",
+      "school": "Guest Artist",
+      "pronouns": "he/him",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Isabella Harris",
+      "role": "Costume Designer",
+      "school": "University of Washington",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Mallory Carbon",
+      "role": "Assistant Choreographer",
+      "school": "University of Washington",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Leah Sainz-Jones",
+      "role": "Assistant Choreographer",
+      "school": "Cornish College of the Arts",
+      "pronouns": "she/her, they/them",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Sam Vasquez",
+      "role": "Assistant Dramaturg",
+      "school": "Cornish College of the Arts",
+      "pronouns": "she/her",
+      "location": "",
+      "bio": ""
+
     }
+  
   ]
 }
