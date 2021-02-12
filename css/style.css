@@ -8,8 +8,9 @@
 
 
 #page-header-home{
-    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../img/uncharted_waters.jpg");
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../img/uncharted-waters-2.png");
+    height: 101vh;
+    background-position: center center;
 }
 
 .flex-heading{
@@ -69,6 +70,12 @@ img{
     justify-content: space-around;
 }
 
+.flex-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .homepage-content-background{
     background: linear-gradient(rgba(80, 67, 224, .9), #4BC8FC);
 }
@@ -87,11 +94,11 @@ img{
 }
 
 #page-header-twelfth{
-    background-image: linear-gradient(rgba(86, 117, 248, .9), rgba(86, 117, 248, .9)), url("../img/uncharted_waters.jpg");
+    background-image: linear-gradient(rgba(86, 117, 248, .9), rgba(86, 117, 248, .9)), url("../img/uncharted-waters-2.png");
 }
 
 #page-header-devised{
-    background-image: linear-gradient(rgba(75, 200, 252, .9), rgba(75, 200, 252, .9)), url("../img/uncharted_waters.jpg");
+    background-image: linear-gradient(rgba(75, 200, 252, .9), rgba(75, 200, 252, .9)), url("../img/uncharted-waters-2.png");
 }
 
 #flex-heading-twelfth{
@@ -206,7 +213,12 @@ nav a{
 }
 
 nav a:hover{
-    color: #5675F8;
+    
+    color:rgba(75, 200, 252, .9);
+}
+
+nav #color-hover:hover{
+    color: rgba(86, 117, 248, .9);
 }
 .flex-nav{
     display: flex;
@@ -221,6 +233,13 @@ nav a:hover{
 
 .nav-text{
     font-size: 1.05rem;
+}
+
+.line{
+    text-align: center;
+    background-color: white; 
+    width: 40vh;
+    height: 2px;
 }
 
 
@@ -302,8 +321,16 @@ footer p{
     box-shadow: 2.5px 2.5px  rgba(0,0,0,.12);
 }
 
+.button:hover {
+    color:rgba(86, 117, 248, .9)
+}
+
 .button-purple{
     background:rgba(86, 117, 248, .9);
+}
+
+.button-purple:hover{
+    color:rgba(75, 200, 252, .9);
 }
 
 .bold{
@@ -318,7 +345,7 @@ footer p{
     color: #F7EE3E !important;
     text-shadow: 1px 1px  rgba(0,0,0,.12);
     text-shadow: 2px 2px  rgba(0,0,0,.12);
-
+    text-shadow: 3px 3px rgba(0,0,0,.12);
 }
 
 .text-yellow-2{
@@ -329,6 +356,7 @@ footer p{
     color: #F7B76F !important;
     text-shadow: 1px 1px  rgba(0,0,0,.12);
     text-shadow: 2px 2px  rgba(0,0,0,.12);
+    text-shadow: 3px 3px rgba(0,0,0,.12);
 }
 
 .border{
