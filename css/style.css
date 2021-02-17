@@ -375,6 +375,7 @@ footer p{
     box-shadow: 1px 1px 1px rgba(0,0,0,.12);
     box-shadow: 2px 2px 1px rgba(0,0,0,.12);
     margin: 10px 10px;
+    position:relative;
 
 }
 
@@ -390,3 +391,13 @@ footer p{
     display: flex;
     flex-wrap: wrap;
 }
+
+.close{
+    float: right;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    
+}
+
+

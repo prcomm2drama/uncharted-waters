@@ -46,8 +46,6 @@ function createCard(state, init){
  console.log(init);
  $("#cast-program").append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
 
- console.log(init);
-
  $("#namecard" + IDGenerator).append("<div class='circle'></div>");
 
  $("#namecard" + IDGenerator).append("<h3 class='text-center'>" + state.name + "</h3>");
@@ -56,9 +54,44 @@ function createCard(state, init){
 
  $("#namecard" + IDGenerator).append("<p class='text-center m-0'>" + state.school + "</p>");
 
- IDGenerator++;
+ // add clickable card
+
+ $("#namecard" + IDGenerator).append("<a data-toggle='modal' data-target='#modal-card" + IDGenerator + "'  class='stretched-link'></a>");
+
+  $("#modal-card").clone().appendTo($("#cast-program"));
+
+
+
+
+  // CHANGE IDS
+  $("#modal-card").prop("id", "modal-card" + IDGenerator);
+  $("#js-modal-header").last().prop("id", "js-modal-header" + IDGenerator);
+  $("#js-modal-body").last().prop("id", "js-modal-body" + IDGenerator);
+  $("#js-modal-button").last().prop("id", "js-modal-button" + IDGenerator);
+
+
+  $("#js-modal-body" + IDGenerator).append("<h3 class='modal-title text-center'>" + state.name + "</h3>");
+
+  $("#js-modal-body " + IDGenerator).append("<p class='modal-text text-center'>" + state.pronouns + "</p>");
+
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> </p>");
+
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.role + "</p>");
+
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> </p>");
+
+  
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.school + "</p>");
+
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'><strong>Bio </strong> </p>");
+
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.bio + "</p>");
+  console.log(state);
+  IDGenerator++;  
 
 }
+
+
 
 function renderCards(arrayObjects){
   for(let i = 0; i < arrayObjects.length; i++){
@@ -118,7 +151,7 @@ fetchEvents('./json/devised-cast.json');
 fetchEvents('./json/devised-production.json');
 
 
-/*fetchEvents('./json/devised-cast.json'); */
+//fetchEvents('./json/devised-cast.json'); 
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");
