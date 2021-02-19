@@ -41,10 +41,9 @@ function createDevisedProductionRow(state){
   rowGenerator++;
 }
 
-function createCard(state, init){
+function createCard(state, IDName){
 
- console.log(init);
- $(init).append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
+ $(IDName).append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
 
  $("#namecard" + IDGenerator).append("<div class='circle'></div>");
 
@@ -52,13 +51,12 @@ function createCard(state, init){
 
  $("#namecard" + IDGenerator).append("<p class='text-center m-0'>" + state.role + "</p>");
 
- $("#namecard" + IDGenerator).append("<p class='text-center m-0'>" + state.school + "</p>");
 
  // add clickable card
 
  $("#namecard" + IDGenerator).append("<a data-toggle='modal' data-target='#modal-card" + IDGenerator + "'  class='stretched-link'></a>");
 
-  $("#modal-card").clone().appendTo($("#cast-program"));
+  $("#modal-card").clone().appendTo($(IDName));
 
 
 
@@ -70,22 +68,16 @@ function createCard(state, init){
   $("#js-modal-button").last().prop("id", "js-modal-button" + IDGenerator);
 
 
-  $("#js-modal-body" + IDGenerator).append("<h3 class='modal-title text-center'>" + state.name + "</h3>");
+  $("#js-modal-body" + IDGenerator).append("<h3 class='modal-title text-center mb-3'>" + state.name + "</h3>");
 
   $("#js-modal-body " + IDGenerator).append("<p class='modal-text text-center'>" + state.pronouns + "</p>");
 
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> </p>");
 
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.role + "</p>");
-
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> </p>");
-
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> <br>" + state.role + "</p>");
   
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.school + "</p>");
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'><strong> School </strong> <br>" + state.school + "</p>");
 
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'><strong>Bio </strong> </p>");
-
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>" + state.bio + "</p>");
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'><strong> Bio </strong> <br>" + state.bio + "</p>");
   console.log(state);
   IDGenerator++;  
 
@@ -93,10 +85,10 @@ function createCard(state, init){
 
 
 
-function renderCards(arrayObjects){
+function renderCards(arrayObjects, IDName){
   for(let i = 0; i < arrayObjects.length; i++){
     console.log(i);
-    createCard(arrayObjects[i], "#cast-program");
+    createCard(arrayObjects[i], IDName);
   }
 }
 
@@ -123,7 +115,7 @@ function renderRows(arrayObjects, name){
 
 let castsArray =[];
 
-function fetchEvents(jsonPath){
+function fetchEvents(jsonPath, IDName){
   let promise;
   fetch(new Request(jsonPath))
   .then(function(response){
@@ -134,7 +126,7 @@ function fetchEvents(jsonPath){
     castsArray = data.result;
     //console.log(data.result);
     renderRows(data.result, jsonPath);
-    renderCards(data.result);
+    renderCards(data.result, IDName);
 
     
 
@@ -151,7 +143,8 @@ fetchEvents('./json/devised-cast.json');
 fetchEvents('./json/devised-production.json');
 */
 
-fetchEvents('./json/devised-cast.json'); 
+fetchEvents('./json/devised-cast.json', "#b-cast-program"); 
+fetchEvents('./json/devised-production.json', "#b-production-program"); 
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");
