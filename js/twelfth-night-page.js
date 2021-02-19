@@ -44,7 +44,7 @@ function createDevisedProductionRow(state){
 function createCard(state, init){
 
  console.log(init);
- $("#cast-program").append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
+ $(init).append("<div class='namecard py2' id='namecard" + IDGenerator + "'</div>");
 
  $("#namecard" + IDGenerator).append("<div class='circle'></div>");
 
@@ -134,7 +134,7 @@ function fetchEvents(jsonPath){
     castsArray = data.result;
     //console.log(data.result);
     renderRows(data.result, jsonPath);
-    //renderCards(data.result);
+    renderCards(data.result);
 
     
 
@@ -145,13 +145,13 @@ function fetchEvents(jsonPath){
   return promise;
 }
 
-fetchEvents('./json/twelfth-night-cast.json');
+/*fetchEvents('./json/twelfth-night-cast.json');
 fetchEvents('./json/twelfth-night-production.json');
 fetchEvents('./json/devised-cast.json');
 fetchEvents('./json/devised-production.json');
+*/
 
-
-//fetchEvents('./json/devised-cast.json'); 
+fetchEvents('./json/devised-cast.json'); 
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");
