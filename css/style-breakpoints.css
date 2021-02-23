@@ -251,6 +251,10 @@
     .button-purple{
         background:rgba(86, 117, 248, .9);
     }
+
+    .news-styles{
+        padding: 0 25%;
+    }
 }
 
 @media( min-width: 1025px){
