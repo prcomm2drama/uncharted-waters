@@ -126,7 +126,7 @@ function fetchEvents(jsonPath, IDName){
     castsArray = data.result;
     //console.log(data.result);
     renderRows(data.result, jsonPath);
-    renderCards(data.result, IDName);
+    //renderCards(data.result, IDName);
 
     
 
@@ -145,6 +145,8 @@ fetchEvents('./json/devised-production.json');
 
 fetchEvents('./json/devised-cast.json', "#b-cast-program"); 
 fetchEvents('./json/devised-production.json', "#b-production-program"); 
+fetchEvents('./json/twelfth-night-production.json', "#t-production-program"); 
+fetchEvents('./json/twelfth-night-cast.json', "#t-production-program"); 
 
 function renderError(err){
   $("#js-flex-pages").append("<p class='alert alert-danger'>" +err.message + "</p>");
