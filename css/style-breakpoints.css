@@ -105,6 +105,9 @@
     .homepage-description{
         max-width: 50%;
         padding: 0px 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 
@@ -165,8 +168,18 @@
 
     /* PAGES */
     .flex-pages{
-    flex-direction: row;
-    justify-content: flex-start;
+ 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    }
+
+    .flex-pages-child-a{
+        flex: 1;
+       
+    }
+
+    .flex-pages-child-b{
+        flex: 2;
     }
 
     table{

@@ -42,63 +42,42 @@
         <section>
             <div class="container my-4">
                 <div class="flex-pages">
-                    <div>
-                        <h2 >Performance Dates:</h2>
-                        <p>Thursday, March 12, 2021 – 7:30 PM PST</p>
-                        <p class="mt--2">Saturday, March 13, 2021 – 7:30 PM PST</p>
-                        <p class="mt--2">Thursday, March 14, 2021 – 5:00 PM PST</p>
-                        <h2>Ticket Prices:</h2>
-                        <p>Students: Free</p>
-                        <p class="mt--2">General Admission: $5</p>
-                        <a href="https://tickets.artsevents.washington.edu/Tickets#/Tickets/Prod/10950" class="button">Get Tickets Here</a>
+                    <div class="flex-pages-child-a">
+                        <div class="d-flex flex-column align-items-end">
+                            <div>
+                                <h2 >Performance Dates:</h2>
+                                <p>Thursday, March 12, 2021 – 7:30 PM PST</p>
+                                <p class="mt--2">Saturday, March 13, 2021 – 7:30 PM PST</p>
+                                <p class="mt--2">Sunday, March 14, 2021 – 5:00 PM PST</p>
+                                <h2>Ticket Prices:</h2>
+                                <p>Students: Free</p>
+                                <p class="mt--2">General Admission: $5</p>
+                                <a href="https://tickets.artsevents.washington.edu/Tickets#/Tickets/Prod/10950" class="button">Get Tickets Here</a>
+                            </div>
+                            </div>
+                       
+                       
+                    </div>
+                       
+                    <div class="flex-pages-child-b">
+                        <p>In the first moments of Twelfth Night, Viola washes up on the Illyrian shore, bereft over her brother’s death, the embodiment of grief. Even as the play takes its comedic turn, the body—disguised, desirous, or familial—remains a potent theme in the play. From these seeds, directors Porscha Shaw and Sheila Daniels began by asking, during the double pandemics of COVID-19 and police brutality, what does it mean to live in a body? In a culture that refrains from discussing bodies except as commodities, what does it mean to talk about bodies? To see bodies? To care for bodies? To harm bodies? To heal bodies? The generative ensemble of Bodies of Water offers a scrapbook of responses to these questions, based on their own experiences as well as first-person interviews. This is a play that asks us each to consider, ultimately, how we can celebrate our own bodies and each other’s bodies.</p>
                     </div>
 
                 </div>
             </div>
         </section>
 
-        <section id="casts-table">
-            <div class="container" id="js-cast-container">
-                
-
-                    <h2>Casts</h2>
-                    
-                    <table id="js-devised-cast-table">
-                        <tr>
-                            <th>Name</th>
-                            <th>School</th>
-                        </tr>
-                    </table>           
-                    
-                
-            </div>
-        </section>
-
-        <section id="production-table">
-            <div class="container my-4 " id="js-production-container">
-                
-
-                    <h2>Production Team</h2>
-                    
-                    <table id="js-devised-production-table">
-                        <tr>
-                            <th>Name</th>
-                            <th>Role</th>
-                            <th>School</th>
-                        </tr>
-                    </table>           
-                    
-                
-            </div>
-
-            
-        </section>
-
-        <!--
-        CASTS 
+ 
         <section>
-            <div class="container flex-program mt-5" id="b-cast-program">
+
+                 <!-- CAST -->
             
+
+            <div class="container mt-5">
+                <h2 class="text-center">Cast</h2>
+                <div class="flex-program" id="b-cast-program">
+            
+                </div>
             </div>
 
 
@@ -113,7 +92,7 @@
                             <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
                                 <span aria-hidden='true'></span> x </span>
                             </button> <br> <br>
-                        -- JS Content here --
+             
             
                         </div>
                     
@@ -122,18 +101,26 @@
                 </div>
             </div>
 
-          
+            
         </section>
 
-        -- PRODUCTIONS --
+        <!-- PRODUCTIONS -->
         <section>
-            <div class="container flex-program mt-5" id="b-production-program">
+            
+            <div class="container mt-5">
+                <h2 class="text-center">Production</h2>
+                <div class=" flex-program mt-4" id="b-production-program">
+
+                </div>
+
+            
+            
             
             </div>
 
         </div> 
         
-    -->
+   
 
         <div class="modal fade" id="modal-card" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered" role="document">
@@ -154,6 +141,30 @@
           </div>
 
           
+        </section>
+
+        <section id="saa-table">
+            <div class="container mt-5" id="js-saa-container">
+                
+
+                    <h2 class="text-center mb-5">Advisers and Staff</h2>
+                    
+                    <div class="d-flex justify-content-center">
+                        <table id="js-saa-table">
+                            <tr>
+                                <th>Name</th>
+                                <th>Role</th>
+                                <th>School</th>
+                            </tr>
+                        </table>           
+                        
+                    </div>
+                  
+                
+            </div>
+        </section>
+        <section>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4BC8FC" fill-opacity="0.95" d="M0,192L80,186.7C160,181,320,171,480,181.3C640,192,800,224,960,224C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
         </section>
      
     </main>
@@ -224,7 +235,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  
 
-    <script src="./js/pages.js"></script>
+    <script src="./js/b-pages.js"></script>
     
 </body>
 </html>
