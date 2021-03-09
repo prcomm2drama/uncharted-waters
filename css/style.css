@@ -445,3 +445,7 @@ hr{
     border-top:1px solid gray;
     width: 50%;
 }
+
+.table-width{
+    width: 100%;
+}

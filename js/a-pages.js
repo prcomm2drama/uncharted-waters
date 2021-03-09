@@ -5,38 +5,47 @@ let rowGenerator = 0;
 let IDGenerator = 0;
 
 
-function createUWCastRow(state){
-  $("#js-saa-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
+function createUWRow(state){
+  $("#js-uw-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.name + "</td>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.role + "</td>")
-  $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.school + "</td>")
+ 
 
   rowGenerator++;
 }
 
 function createSURow(state){
-  $("#js-twelfth-production-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
+  $("#js-su-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.name + "</td>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.role + "</td>")
-  $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.school + "</td>")
+
 
   rowGenerator++;
 }
 
 function createCCARow(state){
-  $("#js-devised-cast-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
+
+  $("#js-cca-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.name + "</td>")
-  /*$("#js-row" + rowGenerator).append("<td class='p-2'>" + state.role + "</td>") */
-  $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.school + "</td>")
+  $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.role + "</td>")
+ 
 
   rowGenerator++;
 }
 
 
 function renderRows(arrayObjects, name){
-  if(name.includes("cast") && name.includes("twelfth")){
+  if(name.includes("uw")){
     for(let i = 0; i < arrayObjects.length; i++){
-      createTwelfthCastRow(arrayObjects[i]);
+      createUWRow(arrayObjects[i]);
+    }
+  }else if(name.includes("seattle-u")){
+    for(let i = 0; i < arrayObjects.length; i++){
+      createSURow(arrayObjects[i]);
+    }
+  }else if(name.includes("cca")){
+    for(let i = 0; i < arrayObjects.length; i++){
+      createCCARow(arrayObjects[i]);
     }
   }
 }
@@ -66,9 +75,11 @@ function fetchEventsTable(jsonPath){
 }
 
 
-fetchEventsCards('./json/twelfth-night-cast.json', "#t-cast-program");
-fetchEventsCards('./json/twelfth-night-production.json', "#t-production-program"); 
-fetchEventsTable('./json/saa.json')
+fetchEventsTable('./json/seattle-u.json')
+
+fetchEventsTable('./json/cca.json')
+
+fetchEventsTable('./json/uw.json')
 
 
 function renderError(err){
