@@ -1,17 +1,11 @@
 {
   "result":[
-    {
-      "name": "Andy Ho",
-      "role": "Sir Andrew",
-      "school": "Seattle University",
-      "pronouns": "He/Him",
-      "location": "",
-      "bio": "Andy Ho is a third year student at Seattle University, pursuing a double degree in Theatre and Kinesiology. He is a Washington local, born and raised in Auburn, WA. Previous stage credits include Man with scar tissue in <em>Marisol</em> (Seattle University), Basque in <em>The Misanthrope</em> (Seattle University), and Buttons in <em>Newsies</em> (Tacoma Musical Playhouse). He sends all his love to mom, dad, Breanna, and Brendan!"
 
-    }, {
+
+    {
 
       "name": "Alex Bailey",
-      "role": "Feste the Fool",
+      "role": "Feste the Fool/Captain",
       "school": "Seattle University",
       "pronouns": "He/Him",
       "location": "",
@@ -35,11 +29,30 @@
       "location": "",
       "bio": "Astrid is a second year acting major at the University of Washington. Originally from New Jersey, she now lives in Seattle where she has appeared in shows such as <em>Burning Man</em>, <em>Museum</em>, and <em>The Cherry Orchard</em>. She is thrilled to be a part of this wonderful cast and crew, and is grateful for all the friends and family who supported and encouraged her along the way!"
 
+
+     }, {
+
+      "name": "Taylor Freeman",
+      "role": "Antonia/Valentine",
+      "school": "University of Washington",
+      "pronouns": "She/Hers",
+      "location": "",
+      "bio": "Taylor Freeman is a second year Drama: Performance Major at the University of Washington. She is from Dallas, Texas, but has travelled up to Seattle, WA to continue her education and training. Her previous work includes playing the role of Anon in <em>(Anon)ymous</em> and Eurydice in <em>Eurydice</em>. She is very thankful for the amazing team she gets to work with for this production, and for her friends and family who have made her who she is today."
+
+    }, {
+
+        "name": "Andy Ho",
+        "role": "Sir Andrew",
+        "school": "Seattle University",
+        "pronouns": "He/Him",
+        "location": "",
+        "bio": "Andy Ho is a third year student at Seattle University, pursuing a double degree in Theatre and Kinesiology. He is a Washington local, born and raised in Auburn, WA. Previous stage credits include Man with scar tissue in <em>Marisol</em> (Seattle University), Basque in <em>The Misanthrope</em> (Seattle University), and Buttons in <em>Newsies</em> (Tacoma Musical Playhouse). He sends all his love to mom, dad, Breanna, and Brendan!"
+
     }, {
 
 
       "name": "Truxton Ivory",
-      "role": "Maria/The Captain",
+      "role": "Maria",
       "school": "Cornish College of the Arts",
       "pronouns": "They/Them",
       "location": "",
@@ -57,7 +70,7 @@
     }, {
 
       "name": "Talia Rossi",
-      "role": "Malvolio/Officer/Priest",
+      "role": "Malvolio/Priest/Officer",
       "school": "Seattle University",
       "pronouns": "She/Her",
       "location": "",
@@ -74,15 +87,7 @@
 
     }, {
 
-      "name": "Taylor Freeman",
-      "role": "Antonia/Valentine",
-      "school": "University of Washington",
-      "pronouns": "She/Hers",
-      "location": "",
-      "bio": "Taylor Freeman is a second year Drama: Performance Major at the University of Washington. She is from Dallas, Texas, but has travelled up to Seattle, WA to continue her education and training. Her previous work includes playing the role of Anon in <em>(Anon)ymous</em> and Eurydice in <em>Eurydice</em>. She is very thankful for the amazing team she gets to work with for this production, and for her friends and family who have made her who she is today."
-
-    }, {
-
+ 
       "name": "Cameron Widmark",
       "role": "Sir Toby",
       "school": "Cornish College of the Arts",

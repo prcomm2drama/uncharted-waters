@@ -9,14 +9,101 @@
       "bio": "Rosa has been teaching at Seattle University since 2000 and directs one production annually for the Seattle University Theatre Program. She is thrilled to be working on this ambitious project with the combined talents of the incredible students, staff and faculty of Seattle U, UW Drama and Cornish. As a founding member of upstart crow collective, a theatre company committed to producing classical plays with casts of women and non-binary people, Rosa is committed to reimagining classical texts for the 21st Century. Her other Shakespeare directing credits include: Bring Down the House (upstart crow collective at Oregon Shakespeare Festival and Seattle Shakespeare Company); <em>As You Like It</em>, <em>Henry V</em> (Oregon Shakespeare Festival); <em>Henry IV Part I</em> (Folger Theatre); <em>Richard III</em> (upstart crow with Seattle Shakespeare Company) <em>Richard II</em>; (Seattle Shakespeare` Company); <em>Titus Andronicus</em>, <em>King John</em> (upstart crow); <em>Much Ado About Nothing</em>, <em>Twelfth Night<em> (New City Theater)."
 
     }, {
-      "name": "Levi Redmill",
-      "role": "Assistant Director",
+      "name": "Amiya Brown",
+      "role": "Environment/Scenic Designer",
+      "school": "Seattle University / University of Washington Alum",
+      "pronouns": "She/Her",
+      "location": "",
+      "bio": ""
+
+    
+    }, {
+      "name": "Reed Nakayama",
+      "role": "Environmental Design",
+      "school": "Guest Artist, Cornish Alum",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Reed Nakayama is a Lighting, Video, and Projections Designer. Aside from his role as Resident Lighting Designer for Pacific Northwest Ballet, he has also contributed to pieces by Strawberry Theatre Workshop, Seattle Shakespeare Company, and INTIMAN Theatre. He is a graduate of Cornish College of the Arts in the Performance Production department."
+
+    }, {
+      "name": "Rebecca Silva",
+      "role": "Costume Designer",
+      "school": "Seattle University",
+      "pronouns": "They/She",
+      "location": "",
+      "bio": "Becca Silva is a fourth year Theatre and Spanish major and has been doing costuming for the past three years. They are originally from California but currently live in Seattle, WA. Becca has been a dresser for past shows and recently was the head of costume for the <em>45 plays for 45 Presidents</em> and <em>Three Sisters</em>. As of now they are the designer for the current show and cannot wait to continue working on shows in the future! "
+
+    }, {
+
+      "name": "Derek Jones",
+      "role": "Sound Designer",
+      "school": "Seattle University",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Derek Jones is a fourth-year Theatre Major at Seattle University. He is currently working remotely from Sacramento, California, but will be returning to make theatre in person soon. Derek's previous work in sound design includes filling the lead design role on <em>45 Plays for 45 Presidents</em> at Seattle U and assisting in sound design for SU's productions of <em>Marisol</em> and <em>The Conduct of Life</em>. Additionally, Derek has begun his foray into the professional world, with sound engineering experience from <em>Everything is Illuminated</em> at Book-It Repertory Theatre and <em>Mamma Mia!</em> at Seattle Musical Theatre. Derek has also recently been featured onstage in Seattle University's production of <em>Three Sisters</em>, and he is looking to pursue a career in professional voiceover. As this is Derek's final show as a student at Seattle University, he would like to thank the scores of people who have guided and aided him over the past four years, including his parents, his best friends, and the expert faculty at Seattle U!"
+
+    }, {
+      "name": "Justin Huertas",
+      "role": "Composer",
+      "school": "Guest Artist",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Justin Huertas is an award-winning playwright, composer-lyricist, and actor based in Seattle. His first original musical <em>Lizard Boy</em> world-premiered at Seattle Rep, toured to San Diego’s Diversionary Theatre, and presented at NAMT’s Festival of New Musicals (’20). Justin also wrote <em>The Last World Octopus Wrestling Champion</em> and <em>A Very Merry Kraken Tea Party</em> (both co-composed with Steven Tran) for ArtsWest Playhouse & Gallery and <em>Lydia & the Troll</em> (co-created by Ameenah Kaplan) for Seattle Rep. He is composer-lyricist for Book-It Repertory Theatre’s adaptation of Howl’s Moving Castle and a new musical commission for the John F. Kennedy Center for the Performing Arts."
+
+    }, {    
+      "name": "Steven Tran",
+      "role": "Music Director",
+      "school": "Guest Artist",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Steven Tran is a composer and theatre artist originally from Colorado. Since landing in Seattle five years ago, he has worked at theatres including Seattle Rep, The 5th Ave, Village Theatre, Artswest, Seattle Shakespeare, Intiman, and Taproot Theatre. Some favorite projects include <em>The Last World Octopus Wrestling Champion</em> at Artswest (co-composer, arranger), <em>Adventure Musical Theatre</em> at the 5th Ave (director) and <em>Public Works</em> at Seattle Rep (music director). He is the playwright and performer of <em>The Sonata Years</em>, an autobiographical piano-recital-meets-solo-show. "
+
+    }, {
+      "name": "Quinn Chase",
+      "role": "Stage Manager",
       "school": "Cornish College of the Arts",
       "pronouns": "He/Him",
       "location": "",
-      "bio": "Levi Redmill is a second year Acting major at Cornish College and this is his second time assistant directing for a show. His directorial debut was a production of <em>Arsenic and Old Lace</em>, and has been in multiple productions as an actor. He is super pumped to be working with Rosa and Kimberly!"
+      "bio": "Quinn is absolutely thrilled to be collaborating with this amazing group of people on Twelfth Night. He is a theater artist currently located in Seattle, with a background in stage management and technical work. Recent works include <em>Stupid Fucking Bird</em> directed by Michael Place (Stage Manager, Cornish College of the Arts), <em>Everything is Illuminated</em> directed and adapted by Josh Aaseng (Production Assistant, Book-It Repertory), and <em>They/Them</em> the Festival directed and curated by Sam I’Am (Stage Manager, Annex Theater). Quinn enjoys creation of new theatrical work and pieces that challenge audiences to question their social norms. "
 
-    
+    }, {
+      "name": "Kate Wisniewski",
+      "role": "Text/Speech Director",
+      "school": "Guest Aritst",
+      "pronouns": "She/Her",
+      "location": "",
+      "bio": "Kate is a Guest Artist Lecturer in the Performing Arts and Arts Leadership Department of Seattle University where she teaches acting and vocal production for actors. A professional actor, Kate has appeared on many Seattle area stages including Seattle Repertory Theatre, ACT, and Seattle Shakespeare Company and regionally at the Oregon Shakespeare Festival and The American Repertory Theatre in Cambridge, MA. Kate is a founding member of upstart crow collective, a diverse female and non-binary classical company. She is a graduate of the American Repertory Theatre Institute at Harvard. "
+
+    }, {
+      "name": "Alice Gosti",
+      "role": "Choreographer",
+      "school": "Guest Artist / UW Drama Alum",
+      "pronouns": "",
+      "location": "",
+      "bio": ""
+
+ 
+      
+    }, {
+      "name": "Kate Wisniewski",
+      "role": "Text/Speech Director",
+      "school": "Seattle University",
+      "pronouns": "",
+      "location": "",
+      "bio": ""
+
+ 
+      
+    }, {
+      "name": "Alyssa Kay",
+      "role": "Resident Fight and Inimacy Director",
+      "school": "Guest Artist / UW Drama Alum",
+      "pronouns": "She/Her",
+      "location": "",
+      "bio": "Alyssa Kay is the resident Fight and Intimacy Director for Seattle University's 2020-2021 school year. She is originally from Seattle (UW alum, Drama BA, '05) and has worked with numerous local theater companies over the years as an actor and choreographer, including Book-It Rep, Seattle Shakespeare Company, Seattle Opera, Off-Road Shakespeare, Harlequin Productions, and more. Kudos to all the students for their dedication and adaptability this school year!"
+
+ 
+      
     }, {
       "name": "Kimberly Le",
       "role": "Assistant Director",
@@ -27,13 +114,22 @@
   
 
     }, {
-
-      "name": "Quinn Chase",
-      "role": "Stage Manager",
+      "name": "Levi Redmill",
+      "role": "Assistant Director",
       "school": "Cornish College of the Arts",
       "pronouns": "He/Him",
       "location": "",
-      "bio": "Quinn is absolutely thrilled to be collaborating with this amazing group of people on Twelfth Night. He is a theater artist currently located in Seattle, with a background in stage management and technical work. Recent works include <em>Stupid Fucking Bird</em> directed by Michael Place (Stage Manager, Cornish College of the Arts), <em>Everything is Illuminated</em> directed and adapted by Josh Aaseng (Production Assistant, Book-It Repertory), and <em>They/Them</em> the Festival directed and curated by Sam I’Am (Stage Manager, Annex Theater). Quinn enjoys creation of new theatrical work and pieces that challenge audiences to question their social norms. "
+      "bio": "Levi Redmill is a second year Acting major at Cornish College and this is his second time assistant directing for a show. His directorial debut was a production of <em>Arsenic and Old Lace</em>, and has been in multiple productions as an actor. He is super pumped to be working with Rosa and Kimberly!"
+
+    
+    }, {
+      "name": "Sophie Collins",
+      "role": "Environment Design Assistant / Stream Team",
+      "school": "Seattle University",
+      "pronouns": "She/Her",
+      "location": "",
+      "bio": "Sophie is a third year Theater and Arts Leadership double major with a minor in Business Administration at Seattle University. She is originally from Los Angeles, CA but is currently studying in Seattle, WA. She has previously worked on SU productions such as Three Sisters as a member of the Stream Team, both <em>Marisol</em> and <em>The Misanthrope</em> as an Assistant Stage Manager, and as a co-producer of <em>Scratch: Calling All the Monsters</em>. She would like to thank her wonderful stream team (Stefania and Will) for being so incredible, as well as her Mom for her support through all of her endeavors."
+
 
     }, {
       "name": "Larcyn Burnett",
@@ -53,61 +149,7 @@
 
     }, {
       
-      "name": "Sophie Collins",
-      "role": "Production Design",
-      "school": "Seattle University",
-      "pronouns": "She/Her",
-      "location": "",
-      "bio": "Sophie is a third year Theater and Arts Leadership double major with a minor in Business Administration at Seattle University. She is originally from Los Angeles, CA but is currently studying in Seattle, WA. She has previously worked on SU productions such as Three Sisters as a member of the Stream Team, both <em>Marisol</em> and <em>The Misanthrope</em> as an Assistant Stage Manager, and as a co-producer of <em>Scratch: Calling All the Monsters</em>. She would like to thank her wonderful stream team (Stefania and Will) for being so incredible, as well as her Mom for her support through all of her endeavors."
-
-
-    }, {
-      "name": "Justin Huertas",
-      "role": "Composer",
-      "school": "Guest Artist",
-      "pronouns": "He/Him",
-      "location": "",
-      "bio": "Justin Huertas is an award-winning playwright, composer-lyricist, and actor based in Seattle. His first original musical <em>Lizard Boy</em> world-premiered at Seattle Rep, toured to San Diego’s Diversionary Theatre, and presented at NAMT’s Festival of New Musicals (’20). Justin also wrote <em>The Last World Octopus Wrestling Champion</em> and <em>A Very Merry Kraken Tea Party</em> (both co-composed with Steven Tran) for ArtsWest Playhouse & Gallery and <em>Lydia & the Troll</em> (co-created by Ameenah Kaplan) for Seattle Rep. He is composer-lyricist for Book-It Repertory Theatre’s adaptation of Howl’s Moving Castle and a new musical commission for the John F. Kennedy Center for the Performing Arts."
-
-    }, {
-      "name": "Derek Jones",
-      "role": "Sound Designer",
-      "school": "Seattle University",
-      "pronouns": "He/Him",
-      "location": "",
-      "bio": "Derek Jones is a fourth-year Theatre Major at Seattle University. He is currently working remotely from Sacramento, California, but will be returning to make theatre in person soon. Derek's previous work in sound design includes filling the lead design role on <em>45 Plays for 45 Presidents</em> at Seattle U and assisting in sound design for SU's productions of <em>Marisol</em> and <em>The Conduct of Life</em>. Additionally, Derek has begun his foray into the professional world, with sound engineering experience from <em>Everything is Illuminated</em> at Book-It Repertory Theatre and <em>Mamma Mia!</em> at Seattle Musical Theatre. Derek has also recently been featured onstage in Seattle University's production of <em>Three Sisters</em>, and he is looking to pursue a career in professional voiceover. As this is Derek's final show as a student at Seattle University, he would like to thank the scores of people who have guided and aided him over the past four years, including his parents, his best friends, and the expert faculty at Seattle U!"
-
-    }, {
-    
-      "name": "Alyssa Kay",
-      "role": "Resident Fight and Inimacy Director",
-      "school": "Guest Artist, UW Drama alum",
-      "pronouns": "She/Her",
-      "location": "",
-      "bio": "Alyssa Kay is the resident Fight and Intimacy Director for Seattle University's 2020-2021 school year. She is originally from Seattle (UW alum, Drama BA, '05) and has worked with numerous local theater companies over the years as an actor and choreographer, including Book-It Rep, Seattle Shakespeare Company, Seattle Opera, Off-Road Shakespeare, Harlequin Productions, and more. Kudos to all the students for their dedication and adaptability this school year!"
-
  
-      
-    }, {
-      "name": "Reed Nakayama",
-      "role": "Environmental Design",
-      "school": "Guest Artist, Cornish alum",
-      "pronouns": "He/Him",
-      "location": "",
-      "bio": "Reed Nakayama is a Lighting, Video, and Projections Designer. Aside from his role as Resident Lighting Designer for Pacific Northwest Ballet, he has also contributed to pieces by Strawberry Theatre Workshop, Seattle Shakespeare Company, and INTIMAN Theatre. He is a graduate of Cornish College of the Arts in the Performance Production department."
-
-    }, {
-  
-
-      "name": "Becca Silva",
-      "role": "Costume Designer",
-      "school": "Seattle University",
-      "pronouns": "They/She",
-      "location": "",
-      "bio": "Becca Silva is a fourth year Theatre and Spanish major and has been doing costuming for the past three years. They are originally from California but currently live in Seattle, WA. Becca has been a dresser for past shows and recently was the head of costume for the <em>45 plays for 45 Presidents</em> and <em>Three Sisters</em>. As of now they are the designer for the current show and cannot wait to continue working on shows in the future! "
-
-    }, {
-
       "name": "Hannah Madgett",
       "role": "Assistant Costume Designer",
       "school": "Seattle University",
@@ -115,25 +157,49 @@
       "location": "",
       "bio": "Hannah is a fourth year at Seattle University majoring in theatre. Hannah is grateful to be helping out in the costume shop as Becca’s costume assistant. Previous costume credits include working as a wardrobe assistant on <em>45 Plays for 45 Presidents</em>. Besides her passion helping with costumes, Hannah loves to act. Previous credits for acting include June in <em>Marisol</em> and Natasha in <em>Three Sisters</em>. Hannah is so excited to see the costumes in <em>Twelfth Night</em> come to life! "
 
-    }, {
-
     
-      "name": "Steven Tran",
-      "role": "Music Director",
-      "school": "Guest Artist",
-      "pronouns": "He/Him",
+    },{
+      "name": "Lily Noto",
+      "role": "Props Lead",
+      "school": "Seattle University",
+      "pronouns": "She/They",
       "location": "",
-      "bio": "Steven Tran is a composer and theatre artist originally from Colorado. Since landing in Seattle five years ago, he has worked at theatres including Seattle Rep, The 5th Ave, Village Theatre, Artswest, Seattle Shakespeare, Intiman, and Taproot Theatre. Some favorite projects include <em>The Last World Octopus Wrestling Champion</em> at Artswest (co-composer, arranger), <em>Adventure Musical Theatre</em> at the 5th Ave (director) and <em>Public Works</em> at Seattle Rep (music director). He is the playwright and performer of <em>The Sonata Years</em>, an autobiographical piano-recital-meets-solo-show. "
+      "bio": "Lily Noto is a fourth year Theatre and Arts Leadership Major at Seattle University. She is originally from Grass Valley, California, but currently resides in Seattle, Washington. Some of her previous acting experience includes the <em>Misanthrope</em>, <em>You on the Moors Now</em>, and <em>Project 60</em> with Theater Simple. They are grateful for their family for always cheering them on!"
 
     }, {
-      "name": "Kate Wisniewski",
-      "role": "Text/Speech Director",
-      "school": "Guest Aritst",
+      "name": "Nicola Krause",
+      "role": "Assistant Props",
+      "school": "Seattle University",
+      "pronouns": "She/Hers",
+      "location": "",
+      "bio": "Nicola Krause is delighted to be working on this collaboration between University of Washington and Cornish College of the Arts. Some of her recent credits include <em>45 Plays for 45 Presidents</em> and <em>The Three Sisters</em> with Seattle University. She is a student working towards a double major in Theater and Cultural Anthropology at SU. She also worked in the properties department for this show."
+
+    }, {
+      "name": "Genique Clark",
+      "role": "Assistant Props",
+      "school": "Seattle University",
+      "pronouns": "",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Will Lambrecht",
+      "role": "Stream Team",
+      "school": "Seattle University",
+      "pronouns": "",
+      "location": "",
+      "bio": ""
+
+    }, {
+      "name": "Stefania Giron Zuluaga",
+      "role": "Stream Team",
+      "school": "Seattle University",
       "pronouns": "She/Her",
       "location": "",
-      "bio": "Kate is a Guest Artist Lecturer in the Performing Arts and Arts Leadership Department of Seattle University where she teaches acting and vocal production for actors. A professional actor, Kate has appeared on many Seattle area stages including Seattle Repertory Theatre, ACT, and Seattle Shakespeare Company and regionally at the Oregon Shakespeare Festival and The American Repertory Theatre in Cambridge, MA. Kate is a founding member of upstart crow collective, a diverse female and non-binary classical company. She is a graduate of the American Repertory Theatre Institute at Harvard. "
+      "bio": "Stefania Giron Zuluaga is a third year Theatre and Arts Leadership Major at Seattle University. She is originally from Bogota, Colombia but is currently in Seattle, WA. Her previous stage management experience has been in <em>Marisol</em>, <em>The Zoom Where It Happens</em>, and <em>Scratch: Calling all the Monsters</em>. She is grateful to her roommate, Emma, and her family for supporting her throughout this process. "
 
     }
+ 
 
   ]
 }

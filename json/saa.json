@@ -2,7 +2,7 @@
   "result":[
     {
       "name": "Harmony Arnold",
-      "role": "Costume Design Adviser",
+      "role": "Costume Design Mentor",
       "school": "Seattle University",
       "pronouns": ""
 
@@ -23,13 +23,13 @@
 
     }, {
       "name": "Shawn Belyea",
-      "role": "Theatre Department Producer",
+      "role": "Associate Producer",
       "school": "Cornish College of the Arts",
       "pronouns": ""
 
 
     }, {
-      "name": "Robert Boehler",
+      "name": "Bob Boehler",
       "role": "Production Manager",
       "school": "Seattle University",
       "pronouns": ""
@@ -39,6 +39,13 @@
       "name": "Andrea Bryn Bush",
       "role": "Property Master",
       "school": "UW School of Drama",
+      "pronouns": ""
+
+
+    }, {
+      "name": "Karen Bystrom",
+      "role": "Director of Marketing, SU College of Arts and Sciences",
+      "school": "Seattle University",
       "pronouns": ""
 
 
@@ -65,7 +72,7 @@
 
     }, {
       "name": "Ruth Eitemiller",
-      "role": "Stage Management Adviser",
+      "role": "Stage Management Mentor",
       "school": "Seattle University",
       "pronouns": ""
 
@@ -94,7 +101,7 @@
     }, {
 
       "name": "Geoff Korf",
-      "role": "Executive Director School of Drama",
+      "role": "UW Executive Director School of Drama",
       "school": "UW School of Drama",
       "pronouns": ""
 
@@ -108,7 +115,7 @@
 
     }, {
       "name": "Geeg Martel",
-      "role": "PerPro Department Chair",
+      "role": "Cornish Performance Production Chair",
       "school": "Cornish College of the Arts",
       "pronouns": ""
 
@@ -128,6 +135,13 @@
 
 
     }, {
+      "name": "Miranda C. Pratt",
+      "role": "Assistant Production Manager",
+      "school": "UW School of Drama",
+      "pronouns": ""
+
+
+    }, {
       "name": "Allison Putnam",
       "role": "Patron Services Manager",
       "school": "Cornish College of the Arts",
@@ -143,7 +157,7 @@
 
     }, {
       "name": "Bret Torbeck",
-      "role": "Stage Management Adviser",
+      "role": "Stage Management",
       "school": "Cornish College of the Arts",
       "pronouns": ""
 
@@ -164,11 +178,19 @@
 
     }, {
       "name": "Richard ET White",
-      "role": "Theatre Department Chair",
+      "role": "Cornish Theatre Department Chair",
       "school": "Cornish College of the Arts",
       "pronouns": ""
 
 
+    }, {
+      "name": "Josh Young",
+      "role": "Associate Director Marketing",
+      "school": "Cornish College of the Arts",
+      "pronouns": ""
+
+
+    
     }
   ]
 }

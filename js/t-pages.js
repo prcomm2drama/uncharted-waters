@@ -42,7 +42,6 @@ function createDevisedProductionRow(state){
 }
 
 function createSAARow(state){
-  console.log("hello");
   $("#js-saa-table").append("<tr id='js-row" + rowGenerator + "'></tr>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.name + "</td>")
   $("#js-row" + rowGenerator).append("<td class='p-2'>" + state.role + "</td>")

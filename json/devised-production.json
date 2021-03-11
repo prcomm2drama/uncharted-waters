@@ -6,7 +6,7 @@
       "school": "UW School of Drama",
       "pronouns": "She/Her",
       "location": "",
-      "bio": ""
+      "bio": "Porscha Shaw is a recent graduate of the Professional Actor Training Program at the University of Washington. She is a native of Richmond, Texas and a graduate of Santa Fe University of Art and Design where she majored in Drama under the training of Jon Jory. Her recent Seattle credits include: Seattle Seattle Rep’s  Shout Sister Shout and NINA SIMONE’s Four Women, Upstart Crow’s Richard III,The Last World Octopus Wrestling Champion, Lamplighter,12 Ophelias, By The Way, Meet Vera Stark, Sound Theatre’s Hoodoo Love, As You Like It, The Octavia,  Iphigenia and Other Daughters, Wooden O’s Love’s Labour’s Lost, and Force Continuum."
 
     }, {
     "name": "Sheila Daniels",
@@ -14,7 +14,25 @@
     "school": "Cornish College of the Arts",
     "pronouns": "She/Her",
     "location": "",
-    "bio": ""
+    "bio": "Sheila Daniels is a Seattle-based director, educator, and actor. Recent directing work includes direction of Paula Vogel's Indecent for Seattle Repertory Theatre, Sarah DeLappe's  The Wolves for ACT and Allison Gregory's Wild Horses for Intiman.She served two years as Bartlett Sher’s Associate Director at Intiman, and served as a guest director at University of Texas, Austin. Sheila has also been guest faculty at the University of Washington, Seattle University, and the Seattle Children’s Theatre  She dedicates this work to Jeanette Maus. Black Lives Matter."
+
+    }, {
+      "name": "Robert Aguilar",
+      "role": "Lighting Designer",
+      "school": "",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Robert is a Seattle based lighting designer for live performance and film. His work has been seen at Intiman, Seattle Repertory Theatre, 5th Avenue Theatre, Portland Center Stage, The Public, The Old Globe, ACT, Cincinnati Playhouse in the Park, Pittsburgh Public Theatre, Milwaukee Rep, Seattle Children’s Theatre, and Village Theatre among others. Robert is the Lighting Director at Seattle Repertory Theatre and he is the resident lighting designer of Intiman."
+  
+      }, {
+
+ 
+      "name": "Stephon Dorsey",
+      "role": "Sound Designer",
+      "school": "Guest Artist",
+      "pronouns": "He/Him",
+      "location": "",
+      "bio": "Stephon Dorsey, also known as Goodsteph, is a music artist based in Detroit, MI. Stephon is a former student of the University of Michigan’s Performing Arts Technology & Voice Program, and a current Music Production student at Full Sail University. His work spans across many different mediums, most notably in music, and sound design. His debut music project Melanin landed him a spot in City Arts' Best New Artist 2017 issue, and on the first Upstream Music Festival stage. In addition to his performance efforts, he has sound design credits for Intiman Theatre's Emerging Artist Program, <em>I Know Why The Caged Bird Sings</em> (Book-It Rep), <em>Milk Like Sugar</em> (ArtsWest), <em>Hedwig & The Angry Inch</em>, and <em>Lady Day at Emerson Bar & Grill</em> (Artswest). In addition to music, has done work in nonprofit arts doing event curation and visual communications. After graduating from Full Sail, Stephon hopes to keep working at his craft, and become a notable performing artist, creating and collaborating on expansive music projects. He has faith that his unique artistry will encourage growth and empowerment for communities of color first, in hopes to one day create a more healthy, human dwelling place for all. "
 
     }, {
       "name": "Stefania Giron Zuluaga",
@@ -25,12 +43,12 @@
       "bio": "Stefania Giron Zuluaga is a third year Theatre and Arts Leadership Major at Seattle University. She is originally from Bogota, Colombia but is currently in Seattle, WA. Her previous stage management experience has been in <em>Marisol</em>, <em>The Zoom Where It Happens</em>, and <em>Scratch: Calling all the Monsters</em>. She is grateful to her roommate, Emma, and her family for supporting her throughout this process. "
 
     }, {
-      "name": "Emily Grierson",
-      "role": "Assistant Stage Manager",
-      "school": "Cornish College of the Arts",
-      "pronouns": "They/She",
-      "location": "",
-      "bio": "Emily Grierson is a stage manager hailing from Rochester, NY who has just recently moved to Seattle. Their most recent credits include <em>You on the Moors Now</em> at Cornish College of the Arts and <em>Doubt: A Parable</em> at Genesee Community College. They have also worked for Shake on the Lake, a professional Shakespeare company based in Perry, NY on their touring productions of <em>Richard III</em>, <em>As You Like It</em>, and <em>A Christmas Carol</em>. They earned their Associate’s Degree in Theatre Technology from Genesee Community College in December 2019, and is currently pursuing their BFA in Performance Production at Cornish College of the Arts."
+      "name": "Isabella Harris",
+      "role": "Costume Designer",
+      "school": "University of Washington",
+      "pronouns": "she/her",
+      "location": "She/Her",
+      "bio": "Isabella Reed Harris is an undergraduate in the University of Washington’s Drama Design program. Most recently she designed <em>Ada and the Engine</em> at the University of Washington. She has also wardrobed <em>In the Heart of America</em> and the 2019 MFA Dance Concert. She is excited to be a part of this production and creating art with all these lovely people. "
 
     }, {
       "name": "Em Chan Dickson",
@@ -39,22 +57,22 @@
       "pronouns": "They/Them",
       "location": "",
       "bio": "Em is a second-year Art History and English Language and Literature major at the University of Washington, and has been stage managing for the School of Drama since their freshman year. Their previous experience includes UW's Winter 2020 CabLab <em>FROZEN</em> and the department's Fall 2020 virtual production of <em>Love and Information</em>. They are honored to be working amongst such passionate and brilliant artists, and would like to thank their SM team for being so welcoming and fun! "
-
+  
     }, {
-      "name": "Stephon Dorsey",
-      "role": "Sound Designer",
-      "school": "Guest Artist",
+      "name": "Emily Grierson",
+      "role": "Assistant Stage Manager",
+      "school": "Cornish College of the Arts",
+      "pronouns": "They/She",
+      "location": "",
+      "bio": "Emily Grierson is a stage manager hailing from Rochester, NY who has just recently moved to Seattle. Their most recent credits include <em>You on the Moors Now</em> at Cornish College of the Arts and <em>Doubt: A Parable</em> at Genesee Community College. They have also worked for Shake on the Lake, a professional Shakespeare company based in Perry, NY on their touring productions of <em>Richard III</em>, <em>As You Like It</em>, and <em>A Christmas Carol</em>. They earned their Associate’s Degree in Theatre Technology from Genesee Community College in December 2019, and is currently pursuing their BFA in Performance Production at Cornish College of the Arts."
+  
+    }, {
+      "name": "Robert Matos",
+      "role": "Assistant Lighting Designer",
+      "school": "Cornish College of the Arts",
       "pronouns": "He/Him",
       "location": "",
-      "bio": "Stephon Dorsey, also known as Goodsteph, is a music artist based in Detroit, MI. Stephon is a former student of the University of Michigan’s Performing Arts Technology & Voice Program, and a current Music Production student at Full Sail University. His work spans across many different mediums, most notably in music, and sound design. His debut music project Melanin landed him a spot in City Arts' Best New Artist 2017 issue, and on the first Upstream Music Festival stage. In addition to his performance efforts, he has sound design credits for Intiman Theatre's Emerging Artist Program, <em>I Know Why The Caged Bird Sings</em> (Book-It Rep), <em>Milk Like Sugar</em> (ArtsWest), <em>Hedwig & The Angry Inch</em>, and <em>Lady Day at Emerson Bar & Grill</em> (Artswest). In addition to music, has done work in nonprofit arts doing event curation and visual communications. After graduating from Full Sail, Stephon hopes to keep working at his craft, and become a notable performing artist, creating and collaborating on expansive music projects. He has faith that his unique artistry will encourage growth and empowerment for communities of color first, in hopes to one day create a more healthy, human dwelling place for all. "
-
-    }, {
-      "name": "Isabella Harris",
-      "role": "Costume Designer",
-      "school": "University of Washington",
-      "pronouns": "she/her",
-      "location": "She/Her",
-      "bio": "Isabella Reed Harris is an undergraduate in the University of Washington’s Drama Design program. Most recently she designed <em>Ada and the Engine</em> at the University of Washington. She has also wardrobed <em>In the Heart of America</em> and the 2019 MFA Dance Concert. She is excited to be a part of this production and creating art with all these lovely people. "
+      "bio": "Robert Matos is a fourth-year Performance Production Major with an emphasis in Lighting Design at Cornish College of the Arts. He is originally from the San Francisco Bay Area but is finishing up his BFA in Seattle, WA. He would like to dedicate this production to theatre technicians everywhere."
 
     }, {
       "name": "Mallory Carbon",
@@ -81,6 +99,7 @@
       "bio": "Sam is a third year Theatre: Original Works major at Cornish College of the Arts. She is from Southern, CA and misses the warm weather. She has previously work on the generative project <em>Between Us</em> and assistant directed <em>Stupid F^*king Bird</em> last semester. She is incredibly grateful to be here and to be making art again. "
 
     }
+ 
   
   ]
 }
