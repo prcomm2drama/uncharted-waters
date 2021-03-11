@@ -84,7 +84,7 @@ function createCard(state, IDName){
 
   $("#js-modal-body" + IDGenerator).append("<h3 class='modal-title text-center mb-3'>" + state.name + "</h3>");
 
-  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'>(" + state.pronouns + ")</p>");
+  $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center mt--2'>(" + state.pronouns + ")</p>");
 
 
   $("#js-modal-body" + IDGenerator).append("<p class='modal-text text-center'> <strong> Role </strong> <br>" + state.role + "</p>");
