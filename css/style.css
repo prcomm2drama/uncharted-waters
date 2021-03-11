@@ -450,3 +450,8 @@ hr{
 .table-width{
     width: 100%;
 }
+
+.big-link{
+    font-size: 1.7rem;
+    text-decoration: none;
+}
