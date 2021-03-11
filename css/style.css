@@ -251,7 +251,7 @@ nav #color-hover:hover{
 .line{
     text-align: center;
     background-color: white; 
-    width: 40vh;
+    width: 40vw;
     height: 2px;
 }
 
@@ -400,6 +400,7 @@ footer p{
     width: 15px;
     background-color:rgba(75, 200, 252, .9);
     border-radius: 50%;
+    margin-bottom: 5px;
 
 }
 
